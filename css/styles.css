@@ -1,0 +1,240 @@
+/* главный цвет фона страницы (background) : #E5E5E5 */
+/* цвет фона первой секции (background) : #2F303A  */
+/* цвет заголовка h1, фон хедера : #FFFFFF */
+/* главный текст страницы (primary-text) : #212121 */
+/* второстепенный текст страницы (secondary-text) :#757575 */
+/* акцент наведения (accent-text) : #757575 */
+/* logo:Web : #2196F3 logo:Studio: #000000 */
+
+/* СТИЛИ ХЕДЕРА */
+:root {
+    --main-white-color: #FFFFFF;
+    --logo-col-one: #000000;
+    --accent: #2196F3;
+    --solution-bg: #2F303A;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --btn-port-col: #F5F4FA;
+    --team-bg-color: #F5F4FA;
+}
+body {
+    font-family: Roboto, sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    background-color: var(--main-white-color);
+    
+}
+.logo,
+.accent-logo {
+    color: var(--logo-col-one);
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.accent-logo {
+    color: var(--accent);
+}
+.nav-link {
+    color: var(--primary-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent);
+}
+.active{
+    color: var(--accent);
+}
+
+
+
+.header-link {
+    color: var(--secondary-text) ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent);
+}
+/* ПЕРВАЯ СЕКЦИЯ */
+.hero {
+    background-color: var(--solution-bg);
+}
+.hero-text {
+    color: var(--main-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+.button {
+    background-color: var(--accent);
+    color: var(--main-white-color);
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    
+    
+}
+/* ВТОРАЯ СЕКЦИЯ */
+.peculiarities {
+    
+}
+.visually-hidden { position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px; }"
+
+
+
+.port-title {
+    color: var(--primary-text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.team-title,
+.box-title {
+    color: var(--primary-text) ;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.pec-subtitle {
+    color: var(--primary-text);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+.team-subtitle {
+    color: var(--primary-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.pec-text {
+    color: var(--secondary-text);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.team-text {
+    color: var(--secondary-text);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    
+}
+.port-text{
+    color: var(--secondary-text) ;
+    
+}
+.section-team {
+    background-color: var(--btn-port-col);
+}
+/* ФУТЕР */
+.footer {
+    background-color: var(--solution-bg);
+}
+.logo-foot {
+    color: var(--main-white-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.foot-text {
+    color: var(--main-white-color);
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+   
+}
+.foot-link {
+    color: rgb(100%,100%,100%,60%);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.foot-link:hover,
+.foot-link:focus {
+    color: var(--accent);
+}
+
+.adress {
+    font-style: normal;
+}
+.port-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    
+}
+.port-btn {
+    background-color: var(--btn-port-col);
+    color: var(--primary-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+.port-btn:hover,
+.port-btn:focus {
+    background-color: var(--accent);
+    color: var(--main-white-color);
+}
+
+.button,
+.port-btn {
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    
+}
+
+.port-link {
+    color: var(--primary-text);
+    text-decoration: none;
+}
