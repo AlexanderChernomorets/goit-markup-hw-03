@@ -17,6 +17,15 @@
     --btn-port-col: #F5F4FA;
     --team-bg-color: #F5F4FA;
 }
+p,
+h1,
+h2,h3,h4,h5,h6 {
+    padding: 0 auto;
+}
+ul {
+    padding: 0 auto;
+    margin: auto;
+}
 body {
     font-family: Roboto, sans-serif;
 
@@ -83,7 +92,7 @@ ul {
     line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
-    
+
     
 }
 .button {
