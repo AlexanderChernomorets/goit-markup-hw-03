@@ -115,7 +115,8 @@ img {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 30px; 
-    min-width: 700px;
+    width: 700px;
+    
     }
 
 
@@ -129,7 +130,8 @@ img {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-  
+    display: block;
+    margin: 0 auto;
     
     
   
@@ -216,6 +218,8 @@ img {
 }
 .port-text{
     color: var(--secondary-text) ;
+    margin-top: 4px;
+    margin-bottom: 20px;
     
 }
 .section-box {
@@ -273,8 +277,11 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+
     
 }
+
+
 .port-btn {
     background-color: var(--btn-port-col);
     color: var(--primary-text);
@@ -284,11 +291,14 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     font-style: normal;
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
 .port-btn:hover,
 .port-btn:focus {
     background-color: var(--accent);
     color: var(--main-white-color);
+    box-shadow: #000000;
 }
 
 .button,
@@ -298,8 +308,17 @@ img {
     font-family: Roboto;
     
 }
+.portfolio {
+    margin-top: 95px;
+}
+.button:hover {
+    background-color: #188CE8;
+}
 
 .port-link {
     color: var(--primary-text);
     text-decoration: none;
+}
+.port-title {
+    margin-top: 20px;
 }
