@@ -246,6 +246,9 @@ img {
     margin-right: 30px;
 
 }
+.pec-subtitle:last-child {
+    margin-right: 0px;
+}
 
 .team-list {
     display: flex;
