@@ -24,6 +24,7 @@ h2,h3,h4,h5,h6 {
 }
 ul {
    padding-left: 0;
+   margin: 0;
 }
 
 body {
@@ -55,7 +56,7 @@ img {
 
 .header {
     background-color: var(--main-white-color);
-    
+    padding: 24px;
     border-bottom: 1px solid rgba(236, 236, 236, 1);
     
 }
@@ -140,7 +141,7 @@ img {
 }
 /* ПЕРВАЯ СЕКЦИЯ */
 .hero {
-    background-color: var(--solution-bg);
+background-color: var(--solution-bg);
    padding-top: 200px;
    padding-bottom: 200px;
    padding-left: auto;
@@ -201,9 +202,9 @@ img {
     clip-path: inset(50%);
     margin: -1px; }
 
-.employe-img {
+/* .employe-img {
     margin-bottom: 30px;
-}
+} */
 
 
 
@@ -214,6 +215,12 @@ img {
     line-height: 2.0;
     letter-spacing: 0.06em;
 }
+
+.section-box {
+    padding-bottom: 94px;
+    padding-top: 0;
+}
+
 .team-title,
 .box-title {
     color: var(--primary-text) ;
@@ -231,7 +238,7 @@ img {
 }
 .peculiarities {
     padding-top: 94px;
-    padding-bottom: 94px;
+    
 }
 
 .pec-subtitle {
@@ -242,8 +249,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
-    max-width: 270px;
-    margin-right: 30px;
+    
 
 }
 .pec-subtitle:last-child {
@@ -292,24 +298,8 @@ img {
     text-align: center;
     
 }
-.port-text{
-    color: var(--secondary-text) ;
-    margin-top: 4px;
-    margin-bottom: 20px;
-    
-}
-
-.port-card {
-    border: 1px solid rgba(238, 238, 238, 1);
-    
-}
-.port-card:nth-child(-n + 6) {
-    margin-bottom: 30px;
-}
-
-.section-box {
-    padding-top: 94px;
-    
+.team-card {
+    margin: 30px auto;
 }
 
 .section-team {
@@ -352,6 +342,7 @@ img {
     flex-direction: row;
     justify-content: left;
     width: 231px;
+    margin-bottom: 9px;
 
 }
 .foot-link:hover,
@@ -371,7 +362,12 @@ img {
     display: flex;
     justify-content: center;
     margin: 0;
+    margin-bottom: 50px;
     
+}
+
+.list-btn {
+    margin-left: 8px;
 }
 
 .port-cont {
@@ -390,9 +386,8 @@ img {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    font-style: normal;
-    margin-left: 8px;
-    margin-bottom: 50px;
+    font-style: normal;   
+    padding: 6px 22px;
 }
 
 .port-btn:hover,
@@ -410,9 +405,9 @@ img {
     border: none;
     cursor: pointer;
     font-family: Roboto;
-    
-
-    
+}
+.button {
+    padding: 10px 32px;
 }
 
 .button:hover {
@@ -424,5 +419,27 @@ img {
     text-decoration: none;
 }
 .port-title {
-    margin-top: 20px;
+    
+   
 }
+
+.port-text{
+    color: var(--secondary-text) ;
+    margin-top: 4px;
+    
+}
+    
+
+
+.port-card {
+    border: 1px solid rgba(238, 238, 238, 1);
+    
+}
+.port-card:nth-child(-n + 6) {
+    margin-bottom: 30px;
+}
+.prt-card {
+    margin: 20px 24px;
+}
+
+
