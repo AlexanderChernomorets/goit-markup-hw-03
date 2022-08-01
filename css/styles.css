@@ -375,7 +375,8 @@ background-color: var(--solution-bg);
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    gap: 27px;
+    gap: 30px;
+    
 }
 
 
@@ -436,7 +437,7 @@ background-color: var(--solution-bg);
 
 .port-card {
     border: 1px solid rgba(238, 238, 238, 1);
-    
+    max-width: 370px;
 }
 /* .port-card:nth-child(-n + 6) {
     margin-bottom: 30px;
