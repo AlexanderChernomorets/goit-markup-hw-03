@@ -68,6 +68,7 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    
 }
 .logo {
     margin-right: 93px;
@@ -164,7 +165,7 @@ background-color: var(--solution-bg);
     max-width: 696px;
     margin-left: auto;
     margin-right: auto; 
-                   
+    letter-spacing: 0.06em;              
 
     
     
@@ -294,12 +295,12 @@ background-color: var(--solution-bg);
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
     text-align: center;
     
 }
 .team-card {
-    margin: 30px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section-team {
@@ -372,9 +373,9 @@ background-color: var(--solution-bg);
 
 .port-cont {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin: 0;
+    gap: 27px;
 }
 
 
@@ -426,7 +427,9 @@ background-color: var(--solution-bg);
 .port-text{
     color: var(--secondary-text) ;
     margin-top: 4px;
-    
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
     
 
@@ -435,11 +438,11 @@ background-color: var(--solution-bg);
     border: 1px solid rgba(238, 238, 238, 1);
     
 }
-.port-card:nth-child(-n + 6) {
+/* .port-card:nth-child(-n + 6) {
     margin-bottom: 30px;
-}
+} */
 .prt-card {
-    margin: 20px 24px;
+    padding: 20px 24px;
 }
 
 
