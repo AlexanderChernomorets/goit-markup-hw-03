@@ -407,6 +407,7 @@ background-color: var(--solution-bg);
     border: none;
     cursor: pointer;
     font-family: Roboto;
+    border-radius: 4px;
 }
 .button {
     padding: 10px 32px;
